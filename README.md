@@ -4,10 +4,10 @@ This is a very simple tool to invert HEX colors.
 
 ## Install
 
-Just dowload **color_invertor.py** and run:
+Just dowload **color_inverter.py** and run:
 
 ```
-$ python3 color_invertor.py
+$ python3 color_inverter.py
 ```
 
 ## Usage
