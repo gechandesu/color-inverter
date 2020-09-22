@@ -12,7 +12,7 @@ $ python3 color_invertor.py
 
 ## Usage
 
-## CLI
+### CLI
 
 You need to provide one or more color without "#" as argument for `-c` option. For example: 
 
@@ -20,7 +20,7 @@ You need to provide one or more color without "#" as argument for `-c` option. F
 $ ./color_inverter.py -c aaaaaa bbbbbb 
 ```
 
-## As module
+### As module
 
 ```
 >>> from color_inverter import inverter
