@@ -18,7 +18,7 @@ def args():
     else:
         return create_parser().parse_args()
 
-def inverter(hexcolor):
+def invert(hexcolor):
     hexcolor = hexcolor.lower()
     r = '0x'+hexcolor[0:2]
     g = '0x'+hexcolor[2:4]
@@ -29,7 +29,7 @@ def inverter(hexcolor):
 def main():
     try:
         for color in args().color:
-            print(inverter(color))
+            print(invert(color))
     except ValueError:
         print('Invalid argument: you must give HEX colors without "#"')
     except TypeError:
