@@ -14,7 +14,7 @@ $ python3 color_inverter.py
 
 ### CLI
 
-You need to provide one or more color without "#" as argument for `-c` option. For example: 
+You need to provide one or more colors without "#" as argument for `-c` option. For example: 
 
 ```
 $ ./color_inverter.py -c aaaaaa bbbbbb 
@@ -23,8 +23,8 @@ $ ./color_inverter.py -c aaaaaa bbbbbb
 ### As module
 
 ```
->>> from color_inverter import inverter
->>> c = inverter('ffffff')
+>>> from color_inverter import invert
+>>> c = invert('ffffff')
 >>> print(c)
 000000
 ```
